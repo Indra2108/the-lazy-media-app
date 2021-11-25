@@ -2,15 +2,25 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        padding: 20,
+        backgroundColor: '#1b1f27'
     },
     headers: {
-        flexDirection: 'row'
+        
     },
-    searchs: {
-        backgroundColor: '#101319'
+    backgroundSearchs: {
+        backgroundColor: '#101319',
+        flexDirection: 'row',
+        padding: '5%',
+        borderRadius: 10
     }, 
     textSearchs: {
-        color: '#3e434e'
+        color: '#4d5361'
+    },
+    lups: {
+        width: '6.5%',
+        height: '100%',
+        marginRight: '5%'
     }
 })

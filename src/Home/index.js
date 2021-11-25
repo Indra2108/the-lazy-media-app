@@ -4,14 +4,22 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 // IMPORT STYLES
 import styles from './styles';
 
+// IMPORT IMAGES
+import lup from './assets/lup.png';
+import sample from './assets/sample.jpg'
+
 export default Home = () => {
     return (
         <View style={styles.container}>
             <View style={styles.headers}>
-                <View style={styles.searchs}>
-                    <Image />
+                <TouchableOpacity style={styles.backgroundSearchs}>
+                    <Image source={lup} style={styles.lups} />
                     <Text style={styles.textSearchs}>Cari Artikel</Text>
-                </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.articleCard}>
+                    <Image />
+                </TouchableOpacity>
             </View>
         </View>
     )
