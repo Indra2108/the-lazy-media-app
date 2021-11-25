@@ -3,8 +3,8 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 
 export default Bookmark = () => {
     return(
-        <View>
-            
+        <View style={styles.container}>
+
         </View>
     )
 }
